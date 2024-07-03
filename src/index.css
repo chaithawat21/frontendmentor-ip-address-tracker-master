@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  font-family: "Rubik", sans-serif;
+
+  --VeryDarkGray: hsl(0, 0%, 17%);
+  --DarkGray: hsl(0, 0%, 59%);
+}
+.loading-letter:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading-letter:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-letter:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading {
+  text-align: center;
+  max-width: 30rem;
+  color: var(--LightCyan);
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.loading-letter {
+  animation: letterAnimation 1s infinite;
+}
+@keyframes letterAnimation {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.loading-letter:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading-letter:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-letter:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading-letter:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loading-letter:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loading-letter:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loading-letter:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
